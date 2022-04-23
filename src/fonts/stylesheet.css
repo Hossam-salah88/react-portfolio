@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Gumela';
+    src: url('GumelaRegular.woff2') format('woff2'),
+        url('GumelaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

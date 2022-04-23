@@ -1,0 +1,48 @@
+.navbar {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .navbar__logo {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar .navbar__logo  .navbar__logo--logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.navbar .navbar__menu {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+.navbar .navbar__menu .navbar__items {
+    flex: 10;
+}
+
+.navbar .navbar__menu .navbar__list {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+
+.navbar .navbar__menu .navbar__list .navbar__link {
+    transition: all 0.3s;
+}
+
+.navbar .navbar__menu .navbar__list .navbar__link:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.navbar .navbar__menu .navbar__btn {
+    flex: 2;
+    transition: all 0.9s;
+}
